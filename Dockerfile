@@ -1,6 +1,6 @@
-FROM postgres:9.5.3
+FROM postgres:9.6.16
 
-MAINTAINER "Ivan Ermilov <ivan.s.ermilov@gmail.com>"
+LABEL Elliot <myy92715@gmail.com>
 
 ADD hive-schema-2.1.0.postgres.sql /hive/hive-schema-2.1.0.postgres.sql
 ADD hive-txn-schema-2.1.0.postgres.sql /hive/hive-txn-schema-2.1.0.postgres.sql
